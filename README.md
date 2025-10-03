@@ -28,7 +28,7 @@ No prerequisites required! This is a standalone application that runs entirely i
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/BlesseeDevamani/Quiz-App.git
+git clone https://github.com/BlesseeDevamani/FWD-Quiz-App.git
 ```
 
 2. Navigate to the project directory:
@@ -211,7 +211,7 @@ Created with ❤️ by **Yadiki Blessee Devamani**
 
 For questions or feedback, please reach out:
 - Email: blesseedevamani751@gmail.com
-- GitHub: [@akashasahu07](https://github.com/BlesseeDevamani)
+- GitHub: [@BlesseeDevamani](https://github.com/BlesseeDevamani)
 - Repository: [Quiz-App](https://github.com/BlesseeDevamani/FWD-Quiz-App)
 
 ## 🔮 Future Enhancements
