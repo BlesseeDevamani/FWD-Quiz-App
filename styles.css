@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('https://img.freepik.com/free-vector/quiz-background-with-flat-design_23-2147596414.jpg')
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+#welcome-screen, #quiz-container, #result-screen {
+  padding: 40px;
+  background: rgba(0,0,0,0.7);
+  margin: 80px auto;
+  width: 70%;
+  border-radius: 15px;
+}
+
+.welcome-img, .result-img {
+  width: 150px;
+  margin: 20px 0;
+}
+
+button {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e68900;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.answer-btn {
+  background: #2196f3;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.answer-btn:hover {
+  background: #1976d2;
+}

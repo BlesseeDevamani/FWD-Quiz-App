@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Mazza</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/stickers/100/quiz.png">
+</head>
+
+<body>
+  <!-- Welcome Screen -->
+  <div id="welcome-screen">
+    <h1>🎉 Quiz Mazza 🎉</h1>
+    <img src="https://img.icons8.com/color/400/quiz.jpeg" alt="Quiz Logo" class="welcome-img">
+    <p>Test your knowledge & have fun!</p>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Container -->
+  <div id="quiz-container" style="display:none;">
+    <div class="header">
+      <div class="app-title">
+        <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-quiz-university-flaticons-flat-flat-icons.png"
+          alt="Quiz Icon" width="40">
+        Quiz Mazza
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <h1 id="question">Question will appear here</h1>
+    <div id="answer-buttons" class="btn-container"></div>
+    <button id="next-btn">Next ➡️</button>
+  </div>
+
+  <!-- Result Screen -->
+  <div id="result-screen" style="display:none;">
+    <h1>🏆 Quiz Completed! 🏆</h1>
+    <img src="https://img.icons8.com/color/400/trophy.png" class="result-img" alt="Trophy">
+    <p id="score-text"></p>
+    <button onclick="window.location.reload()">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
